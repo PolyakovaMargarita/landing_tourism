@@ -1,0 +1,12 @@
+export const emailInvalid = "Invalid email";
+export const isRequired = "Field is required";
+export const isRequiredStars = "Required";
+export const passwordMinCharacters = "Password must be at least 6 characters";
+export const minCharacters = "Must be at least 3 characters";
+export const maxCharacters = "Must be at most 20 characters";
+export const maxMoreCharacters = "Must be at most 1000 characters";
+export const passwordMustMatch = "Passwords must match";
+export const passwordConfirm = "Please confirm your password";
+export const phoneInvalid = "Invalid phone number format";
+export const nicknameInvalid = "Invalid nickname format";
+export const starInvalid = "Value must be a number between 1 and 5";
