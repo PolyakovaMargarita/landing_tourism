@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 24px;
+    box-shadow: 0px 0px 0px 0.5px rgba(151, 151, 151, 0.3), 0px 2px 3px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.firstBlock {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.secondBlock {
+    font-weight: 600;
+    font-size: 15px;
+    color: #714EFF;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-weight: 400;
+    color: rgba(60, 60, 67, 0.8);
+}
+
+.info {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+@media screen and (max-width: 778px) {
+    .firstBlock {
+        width: 70%;
+    }
+
+    .secondBlock {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .container {
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .firstBlock {
+        width: 100%;
+    }
+
+    .secondBlock {
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .container {
+        flex-direction: row;
+        padding: 16px;
+    }
+
+    .firstBlock {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .block {
+        gap: 5px;
+    }
+
+    .secondBlock {
+        padding-top: 0px;
+        align-items: flex-end;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+

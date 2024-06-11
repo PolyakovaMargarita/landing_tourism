@@ -14,6 +14,13 @@ const HomePage: React.FC<HomePageProps> & {
   return <HomeTab />;
 };
 
+export async function getServerSideProps() {
+  return {
+    props: {
+      serverPath: "/",
+    },
+  };
+}
 
 HomePage.getLayout = function getLayout(page: React.ReactNode) {
   return (

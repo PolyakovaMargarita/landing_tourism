@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dataTrip {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.trip {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.commentsBlock {
+    display: flex;
+    gap: 10px;
+}
+
+.nameAndStar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.star {
+    color: rgba(60, 60, 67, 0.8);
+}
+
+.text {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 598px) {
+    .dataTrip {
+        flex-direction: column;
+    }
+}

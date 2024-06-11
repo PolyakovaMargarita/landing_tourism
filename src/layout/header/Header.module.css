@@ -1,14 +1,92 @@
 .container {
   width: 100%;
   display: flex;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  min-height: 72px;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.itemsBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 8px 0px 16px;
+  gap: 5px;
+  height: 32px;
+  box-shadow: 0px 0px 0px 0.5px rgba(151, 151, 151, 0.3), 0px 2px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 15px;
+  min-height: 32px;
+}
+
+.itemTrips, .itemIceland, .itemDay {
+  padding: 0 20px;
+}
+
+.itemIceland {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.5px solid #E5E5EA;
+  border-right: 0.5px solid #E5E5EA;
+}
+
+.itemDay {
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
   position: relative;
 }
 
-@media screen and (max-width: 978px) {
-  .container {
+.dropdown {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+  box-shadow: 0px 0px 0px 0.5px rgba(151, 151, 151, 0.3), 0px 2px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 5px;
+  z-index: 100;
+  background: #FFFFFF;
+}
 
+.dropdownItem:hover {
+  font-weight: 500;
+}
+
+.itemCreate {
+  display: flex;
+  align-items: center;
+  padding: 0px 12px 0px 8px;
+  gap: 10px;
+  justify-content: space-between;
+  min-width: 97px;
+  min-height: 32px;
+  box-shadow: 0px 0px 0px 0.5px rgba(151, 151, 151, 0.3), 0px 2px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 478px) {
+  .container {
+    flex-direction: column;
   }
-  .wrapper {
+
+  .itemTrips, .itemIceland, .itemDay {
+    padding: 0 10px;
   }
 }

@@ -83,3 +83,16 @@ body {
 
 /*hover on white color: #d8d8d8;*/
 /*hover on lightBlue color: #8be9de;*/
+
+@media screen and (max-width: 978px) {
+  .container {
+
+  }
+  .wrapper {
+    width: 90%;
+  }
+
+  .itemTrips, .itemIceland, .itemDay {
+    padding: 0 10px;
+  }
+}
