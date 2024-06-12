@@ -12,6 +12,9 @@ const Highlights: FC<HighlightsProps> = ({ info }) => {
         <div key={index} className={s.block}>
           <div className={s.imgBlock}>
             <img className={s.img} src={item.image} alt={"image"}/>
+            {index === info.length - 1 && (
+              <img className={s.imgArrow} src={"/images/icons/arrowRight.svg"} alt={"arrow"}/>
+            )}
           </div>
           <div className={s.title}>{item.title}</div>
           <div className={s.infoBlock}>
@@ -19,9 +22,6 @@ const Highlights: FC<HighlightsProps> = ({ info }) => {
             <div className={s.point}></div>
             <div>{item.info}</div>
           </div>
-          {index === info.length - 1 && (
-            <img className={s.imgArrow} src={"/images/icons/arrowRight.svg"} alt={"arrow"}/>
-          )}
         </div>
       ))}
     </div>

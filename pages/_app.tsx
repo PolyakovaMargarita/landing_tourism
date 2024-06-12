@@ -10,10 +10,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   const getLayout =
     (Component as MyComponentType).getLayout ||
     ((page: React.ReactNode) => page);
-
   return (
     // <StoreProvider>
-      getLayout(<Component {...pageProps} />)
+    getLayout(<Component {...pageProps} />)
     // {/*</StoreProvider>*/}
   );
 }

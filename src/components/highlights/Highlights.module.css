@@ -4,7 +4,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 15px;
 }
 
@@ -13,8 +13,7 @@
     flex-direction: column;
     gap: 15px;
     height: 100%;
-    width: 30%;
-    position: relative;
+    width: 33%;
 }
 
 .imgBlock {
@@ -22,6 +21,7 @@
     max-width: 413px;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .img {
@@ -52,7 +52,7 @@
 .imgArrow {
     position: absolute;
     right: 5px;
-    top: 40%;
+    top: 45%;
     cursor: pointer;
 }
 
@@ -75,10 +75,6 @@
 @media screen and (max-width: 685px) {
     .imgBlock {
         max-height: 180px;
-    }
-    .imgArrow {
-        top: 25%;
-        right: -5px;
     }
 }
 
