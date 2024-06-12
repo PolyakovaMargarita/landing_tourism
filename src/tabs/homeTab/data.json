@@ -1,0 +1,60 @@
+
+{
+  "a": {
+      "first": {
+        "title": "Golden Circle Region",
+        "description": [
+          "Geysers",
+          "Waterfalls",
+          "Crater lakes"
+        ],
+        "text": "The Golden Circle in Iceland is a renowned tourist route that encompasses an array of stunning natural landmarks within a relatively short distance from Reykjavík. This scenic loop includes three primary attractions: Þingvellir National Park, where you can explore the rift valley created by the diverging North American and Eurasian tectonic plates and witness the site of Iceland's ancient parliament."
+      },
+      "region_highlights": {
+        "title": "Region highlights",
+        "info": [
+          {
+            "title": "Gullfoss Waterfall",
+            "hours": "1h",
+            "info": "Waterfall",
+            "image": "/images/plansImage/1.png"
+          },
+          {
+            "title": "Reykjadalur Valley",
+            "hours": "1h",
+            "info": "Iconic hike, hot springs",
+            "image": "/images/plansImage/2.png"
+          },
+          {
+            "title": "Geysir Thermal Field",
+            "hours": "1h",
+            "info": "Geysers",
+            "image": "/images/plansImage/3.png"
+          }
+        ]
+      },
+      "where_to_stay": [
+        {
+          "title": "Frost and Fire Hotel",
+          "rate": "9.1/10",
+          "price": "180",
+          "name": "Boutique hotel",
+          "image": "/images/plansImage/toStay/1.png"
+        },
+        {
+          "title": "The Greenhouse Hotel",
+          "rate": "9.1/10",
+          "price": "230",
+          "name": "Luxury hotel",
+          "image": "/images/plansImage/toStay/2.png"
+        },
+        {
+          "title": "INNI",
+          "rate": "9.1/10",
+          "price": "130",
+          "name": "Apart hotel",
+          "image": "/images/plansImage/toStay/3.png"
+        }
+      ]
+    }
+}

@@ -1,1 +1,1 @@
-export const TOP_RATED_BLOCK = "topRatedBlock";
+export const GOLDEN_BLOCK = "goldenBlock";

@@ -1,0 +1,36 @@
+{
+  "dayOne": {
+    "time": "40m",
+    "info": [
+      {
+        "title": "Gullfoss Waterfall",
+        "dopInfo": "Curator’s pick",
+        "info": "1h · Iconic hike · Light traffic",
+        "image": "/image/daily/1.png"
+      },
+      {
+        "title": "Reykjadalur Valley",
+        "dopInfo": "Curator’s pick",
+        "info": "1h · Iconic hike · Light traffic ",
+        "image": "/image/daily/2.png"
+      }
+    ]
+  },
+  "dayTwo": {
+    "time": "1h 40m",
+    "info": [
+      {
+        "title": "Geysir Thermal Field",
+        "dopInfo": "Curator’s pick",
+        "info": "1h · Iconic hike · Light traffic ",
+        "image": "/image/daily/3.png"
+      },
+      {
+        "title": "Thingvellir",
+        "dopInfo": "",
+        "info": "1h · Iconic hike · Light traffic ",
+        "image": "/image/daily/4.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+
+{
+  "a": {
+      "first": {
+        "title": "South & Highlands",
+        "description": [
+          "Geysers",
+          "Waterfalls",
+          "Crater lakes"
+        ],
+        "text": "The South & Highlands of Iceland offer a breathtaking landscape of diverse natural wonders, from expansive glaciers and active volcanoes to serene waterfalls and black sand beaches. This region is also a haven for adventurers, featuring numerous hiking trails, hidden hot springs, and vast lava fields waiting to be explored. Visitors will be captivated by the blend of tranquility and raw, untamed beauty that defines this unique part of Iceland."
+      },
+      "region_highlights": {
+        "title": "Region highlights",
+        "info": [
+          {
+            "title": "Skógafoss Waterfall",
+            "hours": "1h",
+            "info": "Iconic waterfall",
+            "image": "/images/plansBImage/1.png"
+          },
+          {
+            "title": "Katla Ice Cave",
+            "hours": "1h",
+            "info": "Ice caves",
+            "image": "/images/plansBImage/2.png"
+          },
+          {
+            "title": "Fjaðrárgljúfur ",
+            "hours": "1h",
+            "info": "Geysers",
+            "image": "/images/plansBImage/3.png"
+          }
+        ]
+      },
+      "where_to_stay": [
+        {
+          "title": "Magma Hotel",
+          "rate": "9.1/10",
+          "price": "250",
+          "name": "Boutique hotel",
+          "image": "/images/plansBImage/toStay/1.png"
+        },
+        {
+          "title": "Hotel Vík í Mýrdal",
+          "rate": "9.1/10",
+          "price": "150",
+          "name": "Luxury hotel",
+          "image": "/images/plansBImage/toStay/2.png"
+        },
+        {
+          "title": "Hótel Kría",
+          "rate": "9.1/10",
+          "price": "130",
+          "name": "Luxury hotel",
+          "image": "/images/plansBImage/toStay/3.png"
+        }
+      ]
+    }
+}

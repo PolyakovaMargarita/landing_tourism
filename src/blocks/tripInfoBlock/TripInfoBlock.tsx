@@ -3,6 +3,8 @@ import s from "./TripInfoBlock.module.css";
 
 //data
 import data from "./data.json";
+import Link from "next/link";
+import {GOLDEN_BLOCK} from "../../helpers/constants/id";
 
 interface TripInfoBlockProps {
 }
@@ -10,7 +12,13 @@ interface TripInfoBlockProps {
 
 const TripInfoBlock: FC<TripInfoBlockProps> = () => {
 
-  console.log("data", data);
+  const handleClick = () => {
+    const element = document.getElementById(GOLDEN_BLOCK);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+    
   return (
     <div className={s.container}>
       <div className={s.firstBlock}>
@@ -22,7 +30,12 @@ const TripInfoBlock: FC<TripInfoBlockProps> = () => {
         ))}
 
       </div>
-      <div className={s.secondBlock}>View itinerary</div>
+      <div
+        className={s.secondBlock} 
+        onClick={handleClick}
+      >
+        View itinerary
+      </div>
     </div>
   );
 };
